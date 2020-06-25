@@ -1,0 +1,37 @@
+{
+  "name": "nodespeedtest",
+  "version": "1.0.2",
+  "description": "HTML5 Speedtest with NodeJS Backend",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dunklesToast/NodeSpeedtest.git"
+  },
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "express": "^4.16.3",
+    "cors": "^2.8.5",
+    "gps-distance": "^0.0.4",
+    "random-bytes": "^1.0.0",
+    "request": "^2.85.0"
+  },
+  "pkg": {
+    "assets": [
+      "src/public/**/*"
+    ]
+  },
+  "bin": {
+    "NodeSpeedtest": "index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/dunklesToast/NodeSpeedtest/issues"
+  },
+  "homepage": "https://github.com/dunklesToast/NodeSpeedtest#readme",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node index.js"
+  },
+  "author": ""
+}
